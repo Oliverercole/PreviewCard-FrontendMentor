@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 774px;
+    height: 579px;
+    
+}
+
+.container img{
+    width: 387px;
+    height: 579px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.container .mobile{
+    display: none;
+}
+
+.container .desc{
+    background: white;
+    padding: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.container .desc .word h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+.container .desc .word h1{
+    margin-top: 26px;
+    font-family: 'Fraunces', serif;
+    font-size: 42px;
+    line-height: 41px;
+}
+
+.container .desc .word p{
+    margin-top: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    line-height: 30px;
+    color:hsl(228, 12%, 48%);
+}
+
+.container .desc .price{
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.container .desc .price .rp{
+    font-family: 'Fraunces', serif;
+    color: #3D8168;
+    font-size: 44px;
+}
+.container .desc .price .dp{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    color:hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+
+.container .desc .button{
+    margin-top: 40px;
+    width: 300px;
+    height: 60px;
+    background-color: #3D8168;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container .desc .button p{
+    margin-left: 15px;
+}
+
+.attribution{
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        width: 343px;
+        height: 610px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container img{
+        display: none;
+    }
+
+    .container .mobile{
+        display: block;
+        width: 343px;
+        height: 240px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        margin: auto;
+    }
+    
+    .container .desc{
+        background: white;
+        padding: 20px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        height: 371px;
+    }
+
+    .container .desc .word h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        letter-spacing: 5px;
+        color: hsl(228, 12%, 48%);
+    }
+    
+    .container .desc .word h1{
+        margin-top: 10px;
+        font-family: 'Fraunces', serif;
+        font-size: 30px;
+        line-height: 41px;
+    }
+    
+    .container .desc .word p{
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color:hsl(228, 12%, 48%);
+    }
+    
+    .container .desc .price{
+        margin-top: 22px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .container .desc .price .rp{
+        font-family: 'Fraunces', serif;
+        color: #3D8168;
+        font-size: 30px;
+    }
+    .container .desc .price .dp{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color:hsl(228, 12%, 48%);
+        text-decoration: line-through;
+        margin-left: 20px;
+    }
+    
+    .container .desc .button{
+        margin-top: 22px;
+        width: 300px;
+        height: 47px;
+        background-color: #3D8168;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .container .desc .button p{
+        margin-left: 15px;
+    }
+    
+    .attribution{
+        margin-top: 40px;
+    }
+  }
